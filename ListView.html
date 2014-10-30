@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<img />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>shopmob</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body >
+<header>
+  <div class="header_logo">
+  <div class="welcomeUser"> Logged in as UserX.</div>
+  <img alt="shopmoblogo" src="images/shopmob-logo.png" />
+  <div class="linkbar"> <a href="logout.html">Logout</a> | Settings | FAQ | Contact</div>
+</header>
+
+<body>
+<div class="breadcrumb"> Home > New List </div>
+<div class="main">
+  <div class="myLists"> <span>My Lists...</span> </div>
+  <div class="content">
+    <div id="printable">
+    <table class="list" id="list">
+      <tr class="mainrow" id="mainrow">
+         <td class="check" >Check</td>
+        <td>Article</td>
+        <td>Amount</td>
+        <td>Category</td>
+        <td>Shop</td>
+        <td>Price</td>
+        <td>Notes</td>
+       
+      </tr>
+      <tr class="editable" align="center"  id="editable">
+        <td class="check"><form>
+            <input class="check" type="checkbox">
+          </form></td>
+        <td><div contenteditable> </div></td>
+        <td><div contenteditable> </div></td>
+        <td><div contenteditable> </div></td>
+        <td><div contenteditable> </div></td>
+        <td><div contenteditable> </div></td>
+        <td><div contenteditable> </div></td>
+         
+      </tr>
+    </table>
+    </div>
+    
+    <div class="tablebuttons">
+      <button class="add" id="add">add [+]</button>
+      <button class="delete" id="delete">delete [-]</button>
+    </div>
+    <img class="button" alt="save" src="images/save.png" onmouseover="src='images/save1.png'" onmouseout="src='images/save.png';"/>
+   
+    <img class="button" onclick="suretodelete()" alt="delete" src="images/delete.png" onmouseover="src='images/delete1.png'" onmouseout="src='images/delete.png';"/>
+   
+    <img id="print" onclick="printDiv('printable')" class="button" alt="print" src="images/print.png"  onmouseover="src='images/print1.png'" onmouseout="src='images/print.png'";/> 
+    <img class="button" id="share" alt="share" src="images/share.png" onmouseover="src='images/share1.png'" onmouseout="src='images/share.png';"/>
+    
+   
+   <div id="shareboxdiv" class="hidden">
+    <div  id="sharebox">
+      <form>
+        <input type="radio" name="share" value="edit">
+        edit<br>
+        <input type="radio" name="share" value="read only">
+        read only
+      </form>
+       </div>
+      <div class="secretlink">http://secret link.html </div>
+   </div>
+
+  </div>
+</div>
+<script src="shopmob.js" type="text/javascript"></script>
+</body>
+</html>

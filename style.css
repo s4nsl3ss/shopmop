@@ -1,0 +1,178 @@
+html {
+    height: 100%;
+	/*background-image: linear-gradient(white,white,#41B6A8,#41B6A8 /*#C5E4DD*//*;*/
+	color: #169393;
+
+	}
+body {
+	background-image:url(images/background_blue.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: left bottom;
+	}
+	
+	
+header{
+	margin: 3em 3em 3em 0;
+}
+
+div{
+	overflow: hidden;
+}
+
+button{
+	margin: 1em 0.4em;
+}
+
+input {
+	display: inline-block;
+}
+
+table, th, td {
+	background-color: #C0E2E2;
+	border: 1px solid #169393;
+    border-collapse: collapse;
+	padding: 6px;
+	}
+td {
+	width: 6em;
+	height: 2em;
+	}
+
+td.check {
+	width: 2em;
+	}
+
+
+.header_logo{
+	width: 100%;
+	text-align: right;
+}
+
+.header_logo img{
+	width: 30%;
+}
+
+.main_login{
+	margin: 5em 0;
+	width: 100%;
+	text-align: center;
+}
+
+.main_login input {
+	margin: 1em auto;
+	display: block;
+}
+
+.welcomeUser{
+	float: left;
+	margin-left: 0.5em;
+	font-size: 0.9em;
+}
+
+.breadcrumb{
+	font-weight: bold;
+	margin-left: 1.5em;
+}
+
+.main{
+	width: 100%;
+	margin: 2em 0;
+}
+
+.content{
+	padding-bottom: 1em;
+}
+
+.myLists{
+	margin: 0 3em 0 0.5em;
+	max-width: 20%;
+	min-width: 10%;
+	min-height: 4em;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	float:left;
+	text-align: right;
+}
+
+.content{
+	max-width: 70%;
+	margin: 0 0 10em 4em;
+}
+
+.register {
+	margin: 0 auto;
+	max-width: 20%;
+	min-width: 10%;
+	min-height: 4em;
+	text-align: left;
+	}
+
+.create {
+	float: left;
+	max-width: 8%;
+	max-height: 8%;
+}	
+
+.ip {
+	margin: 2.3em 3em;
+	float: left;
+}
+
+.button {
+	padding: 0.1em;
+	max-width: 110px;
+	height: auto;
+	float: left;
+	cursor: pointer;
+	}
+	
+.list {
+	margin-bottom: 0.5em;
+	}
+	
+.mainrow {
+	font-size: 1.1em;
+	text-align: center;
+	}
+	
+	
+.logout_logo img{
+	width: 50%;
+	}
+	
+.tablebuttons {
+	margin-bottom:40px;
+	}
+
+	
+	
+#sharebox {
+	margin: 0 0 0 10px;
+	background-color: white;
+	width: 15%;
+	padding:8px;
+	border:solid white;
+	border-radius: 15px;
+	}
+	
+.secretlink {
+	/* visibility: hidden; */
+	margin: 8px 0 0 10px;
+	background-color: white;
+	width: 30%;
+	border:solid white;
+	}
+	
+	
+.hidden {
+	display: none;
+	}
+
+.visible {
+	display: block;
+	}
+
+.error
+{ border-color:red; }
